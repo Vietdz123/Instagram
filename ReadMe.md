@@ -17,3 +17,18 @@ ProfileController gồm các tính năng như:
 ![](gif/followController.gif)
 
 
+# II. HomeController
+- Dynamic Size Cell 
+
+![](gif/dynamicSize.gif)
+
+- Likes and Comments Status
+
+![](gif/LikeAndComment.gif)
+
+- Profile của users khác
+
+![](gif/anotherProfile.gif)
+
+
+
