@@ -6,7 +6,7 @@ ProfileController gồm các tính năng như:
 
 - Custom BottomSheetController và Logout
 
-![](gif/CustomBottomSheet.gif)
+![](gif/CustomBottomSheet_andLogout.gif)
 
 - Edit Profile
 
