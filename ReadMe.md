@@ -59,7 +59,7 @@ Instagram have 4 main Controlers:
 - ***UploadStatusController***: From this controller, users can select images from their own photo library or capture new photos to post as statuses.
 - ***ExploreController***: This controller is used to showcase other users' statuses and enables searching for other users.
 
-Implementing **HomeController** has been both interesting and challenging. It took me 6 days to complete. To support both vertical and horizontal scrolling, I had to implement two scroll views and two child controllers
+Implementing **ProfileConttroller** has been both interesting and challenging. It took me 6 days to complete. To support both vertical and horizontal scrolling, I had to implement two scroll views and two child controllers
 -  **HeaderProfileController**: This controller displays user information and handles follow/unfollow actions.
 -  **Bottom ProfileController**: BottomProfileController is a controller that contains three child controllers for horizontal scrolling.
 -  ContainerScrollView: This scroll view is responsible for containing the views of the two child controllers mentioned above.
