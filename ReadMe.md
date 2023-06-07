@@ -50,17 +50,20 @@ This is a my personal project where  I am trying to emulate the features of Inst
 
 <!-- GETTING STARTED -->
 ## Getting Started
+
+Project is builed without Storyboard.<br />
+Architecure: MVVM.<br />
 Instagram have 4 main Controlers:
 - ***ProfileConttroller***:  This controller is responsible for editing the user's profile, as well as managing the follow and unfollow actions for other users. Depending on the user's identity and the screen they are presented from, different layouts will be displayed.
 - ***HomeController***: This controller is used to display the photo statuses. Users can perform actions such as liking, commenting, and viewing users who have liked a particular status.
-- ***PickPhotoController***: From this controller, users can select images from their own photo library or capture new photos to post as statuses.
+- ***UploadStatusController***: From this controller, users can select images from their own photo library or capture new photos to post as statuses.
 - ***ExploreController***: This controller is used to showcase other users' statuses and enables searching for other users.
 
 Implementing **HomeController** has been both interesting and challenging. It took me 6 days to complete. To support both vertical and horizontal scrolling, I had to implement two scroll views and two child controllers
 -  **HeaderProfileController**: This controller displays user information and handles follow/unfollow actions.
 -  **Bottom ProfileController**: BottomProfileController is a controller that contains three child controllers for horizontal scrolling.
 -  ContainerScrollView: This scroll view is responsible for containing the views of the two child controllers mentioned above.
--  OverlayScrollView: This scroll view is responsible for containing the views of the two child controllers mentioned above. 
+-  OverlayScrollView: For scrolling views.
   
 In addition, I have also customized a Bottom Sheet Controller for the logout and settings functionality<br />
 <br />
@@ -68,7 +71,7 @@ In addition, I have also customized a Bottom Sheet Controller for the logout and
 ## Video Demo
 ### I. ProfileController
 Main Feature ProfileController
-- Scroll is like Instagram: Begin to header profile, then continue scroll to bottom images.
+- Scroll behaves like Instagram: Start at the header profile, then continue scroll to bottom images.
 <div align="center">
 <img src="gif/scrollLikeInsta.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
 </div>
