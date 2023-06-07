@@ -78,6 +78,7 @@ Implementing **HomeController** has been both interesting and challenging. It to
 In addition, I have also customized a Bottom Sheet Controller for the logout and settings functionality
 
 # I. ProfileController
+
 Main Feature ProfileController
 - Scroll is like Instagram
 
@@ -86,7 +87,6 @@ Main Feature ProfileController
 - Custom BottomSheetController and Logout
 
 ![](gif/bottomSheetAndLogout.gif)
-
 - Edit Profile
 
 ![](gif/editProfile.gif)
@@ -94,6 +94,7 @@ Main Feature ProfileController
 - Check who i am following and who is following me
 
 ![](gif/follow.gif)
+
 
 
 # II. HomeController
