@@ -110,15 +110,24 @@ Main Feature ProfileController
 # II. HomeController
 - Dynamic Size Cell 
 
-![](gif/dynamicSize.gif)
+<div align="center">
+<img src="gif/dynamicCell.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
+</div>
 
 - Likes and Comments Status
-
-![](gif/LikeAndComment.gif)
+<div align="center">
+<img src="gif/LikeAndComment.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
+</div>
 
 - Profile của users khác
 
-![](gif/anotherProfile.gif)
+<div align="center">
+<img src="gif/anotherUser.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
+</div>
 
 
-
+# III. HomeController
+Search and Explore Statues
+<div align="center">
+<img src="gif/Explore.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
+</div>
