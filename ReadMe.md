@@ -95,7 +95,7 @@ Main Feature ProfileController
 </div>
 
 # II. HomeController
-- Dynamic Size Cell:
+- Self-Sizing:
 
 <div align="center">
 <img src="gif/dynamicCell.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
