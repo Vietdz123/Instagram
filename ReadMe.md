@@ -81,7 +81,7 @@ In addition, I have also customized a Bottom Sheet Controller for the logout and
 Main Feature ProfileController
 - Scroll is like Instagram
 
-![](gif/scroll.gif)
+![](gif/scrollLikeInsta.gif)
 
 - Custom BottomSheetController and Logout
 
