@@ -52,7 +52,7 @@ This is a my personal project where  I am trying to emulate the features of Inst
 ## Getting Started
 
 Project is builted without Storyboard.<br />
-Architecure: MVVM.<br />
+Architecture: MVVM.<br />
 Instagram have 4 main Controlers:
 - ***ProfileConttroller***:  This controller is responsible for editing the user's profile, as well as managing the follow and unfollow actions for other users. Depending on the user's identity and the screen they are presented from, different layouts will be displayed.
 - ***HomeController***: This controller is used to display the photo statuses. Users can perform actions such as liking, commenting, and viewing users who have liked a particular status.
