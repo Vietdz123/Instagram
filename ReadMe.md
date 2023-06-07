@@ -51,7 +51,7 @@ This is a my personal project where  I am trying to emulate the features of Inst
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Project is builed without Storyboard.<br />
+Project is builted without Storyboard.<br />
 Architecure: MVVM.<br />
 Instagram have 4 main Controlers:
 - ***ProfileConttroller***:  This controller is responsible for editing the user's profile, as well as managing the follow and unfollow actions for other users. Depending on the user's identity and the screen they are presented from, different layouts will be displayed.
@@ -88,7 +88,7 @@ Main Feature ProfileController
 <img src="gif/editProfile.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
 </div>
 
-- Check who i am following and who is following me:
+- Check followers and followings user:
 
 <div align="center">
 <img src="gif/follow.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
@@ -103,7 +103,7 @@ Main Feature ProfileController
 
 - Likes and Comments Status:
 <div align="center">
-<img src="gif/LikeAndComment.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
+<img src="gif/likeNComment.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
 </div>
 
 - Profile of other users:
