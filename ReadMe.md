@@ -49,7 +49,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Alt Text](imgaes/product_screenShort.jpg)
+![Alt Text](imgaes/product_screenShort1.jpg)
 
 This is a my personal project where  I am trying to emulate the features of Instagram after using them. I have utilized several frameworks and classes, including:
 - **UICollectionViewCompositionalLayout**: : To create multiple sections with various layouts and sizes.
