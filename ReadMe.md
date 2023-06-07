@@ -9,7 +9,7 @@
   <p align="center">
     This is a personal project aimed at learning and practicing various concepts!
     <br />
-    <a href="https://github.com/Vietdz123/Instagrame">View Demo</a>
+    <a href="https://github.com/Vietdz123/Instagram">View Demo</a>
     ·
     <a href="https://github.com/Vietdz123/Instagram/issues">Report Bug</a>
   </p>
