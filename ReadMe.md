@@ -78,23 +78,22 @@ Implementing **HomeController** has been both interesting and challenging. It to
 In addition, I have also customized a Bottom Sheet Controller for the logout and settings functionality
 
 # I. ProfileController
-ProfileController gồm các tính năng như:
-- Scroll giống như Instagram
-
+Main Feature ProfileController
+- Scroll is like Instagram
 
 ![](gif/scrollLikeInsta.gif)
 
-- Custom BottomSheetController và Logout
+- Custom BottomSheetController and Logout
 
-![](gif/CustomBottomSheet_andLogout.gif)
+![](gif/bottomSheetAndLogout.gif)
 
 - Edit Profile
 
 ![](gif/editProfile.gif)
 
-- Check xem ta đang follow ai và ai đang follow ta 
+- Check who i am following and who is following me
 
-![](gif/followController.gif)
+![](gif/follow.gif)
 
 
 # II. HomeController

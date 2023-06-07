@@ -223,7 +223,6 @@ class EditProfileController: UIViewController {
         self.loadingIndicator.startAnimating()
         self.navigationBar.rightButtons[0].isHidden = true
         if hasChangedAvatar() {
-   
             UserService.shared.updateInfoUser(user: user, image: avatarImageView.image) { success in
                 self.loadingIndicator.stopAnimating()
                 if success {
@@ -236,7 +235,6 @@ class EditProfileController: UIViewController {
                     self.navigationBar.leftButtons[0].alpha = 1
                 }
                 return
-                
             }
         }
         

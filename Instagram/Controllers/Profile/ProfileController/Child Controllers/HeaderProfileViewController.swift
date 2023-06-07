@@ -452,7 +452,7 @@ class HeaderProfileViewController: UIViewController {
 extension HeaderProfileViewController: UICollectionViewDataSource, UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: StoryCollectionViewCell.identifier, for: indexPath) as! StoryCollectionViewCell
-        cell.imageStory = UIImage(named: "aqua\(indexPath.row)")
+        cell.imageStory = UIImage(named: "buon\(indexPath.row)")
         return cell
     }
     

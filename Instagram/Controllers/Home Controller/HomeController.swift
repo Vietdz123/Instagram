@@ -185,7 +185,7 @@ extension HomeController: UICollectionViewDataSource {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: StoryHomeCollectionViewCell.identifier,
                                                           for: indexPath) as! StoryHomeCollectionViewCell
             cell.plusStoryImageView.isHidden = true
-            cell.imageStory = UIImage(named: "aqua\(indexPath.row)")
+            cell.imageStory = UIImage(named: "buon\(indexPath.row)")
             return cell
             
         } else {
@@ -245,7 +245,6 @@ extension HomeController: HomeFeedCollectionViewCellDelegate {
     
     func didSelectAvatar(status: StatusModel) {
         let profileVC = ProfileController(user: status.user, type: .other)
-
         self.navigationController?.pushViewController(profileVC, animated: true)
     }
 }

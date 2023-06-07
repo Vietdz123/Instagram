@@ -43,32 +43,31 @@ class LikesViewModel {
         self.completionFecthData?()
         var numberUser = 0
         StatusService.shared.fetchUsersLikeStatus(status: status) { users in
-            users.forEach { user in
-                UserService.shared.hasFollowedUser(uid: user.uid) { isFollowed in
-                    user.isFollowed = isFollowed
-                    self.users.append(user)
+            self.users = users
+            for i in 0..<users.count {
+                UserService.shared.hasFollowedUser(uid: users[i].uid) { isFollowed in
+                    self.users[i].isFollowed = isFollowed
                     numberUser += 1
                     if numberUser == users.count {
                         self.completionFecthData?()
                     }
                 }
             }
+            
         }
     }
     
     func reloadData() {
         var numberUser = 0
-        var tempUsers: [UserModel] = []
         StatusService.shared.fetchUsersLikeStatus(status: status) { users in
+            self.users = users
             self.duringReloadData?()
-            users.forEach { user in
-                UserService.shared.hasFollowedUser(uid: user.uid) { isFollowed in
-                    user.isFollowed = isFollowed
-                    tempUsers.append(user)
+            for i in 0..<users.count {
+                UserService.shared.hasFollowedUser(uid: users[i].uid) { isFollowed in
+                    self.users[i].isFollowed = isFollowed
                     numberUser += 1
                     if numberUser == users.count {
                         DispatchQueue.main.async {
-                            self.users = tempUsers
                             self.completionFecthData?()
                         }
                     }

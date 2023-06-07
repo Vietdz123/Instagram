@@ -14,6 +14,10 @@ enum ProfileControllerType {
     case other
 }
 
+protocol ProfileControllerDelegate: AnyObject {
+    func didTapFollowButton(hasFollowed: Bool)
+}
+
 
 class ProfileController: UIViewController {
     //MARK: - Properties
@@ -26,6 +30,7 @@ class ProfileController: UIViewController {
     let refreshControl = UIRefreshControl()
     var selectSettingViewTopConstraint: NSLayoutConstraint!
     let type: ProfileControllerType
+    weak var delegate: ProfileControllerDelegate?
     
     var beganPresentSettingVC = false
     let heightSelectedSettingVC: CGFloat = 475
@@ -282,6 +287,10 @@ extension ProfileController: BottomTapTripControllerDelegate {
 
 
 extension ProfileController: HeaderProfileDelegate {
+    func didSelectFollowButtonTap(hasFollowed: Bool) {
+        self.delegate?.didTapFollowButton(hasFollowed: hasFollowed)
+    }
+    
     func didSelectPostsLabel() {
         self.overlayScrollView.setContentOffset(CGPoint(x: 0, y: self.heightHeaderView), animated: true)
     }

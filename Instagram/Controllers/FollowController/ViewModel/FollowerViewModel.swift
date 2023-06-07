@@ -56,9 +56,9 @@ class FollowerViewModel {
         UserService.shared.fetchFollowerUsers(uid: user.uid) { users in
             self.followerUsers = users.sorted { $0.username > $1.username }
             self.completionFecthData?()
-            for user in users {
-                UserService.shared.hasFollowedUser(uid: user.uid) { hasFollowed in
-                    user.isFollowed = hasFollowed
+            for i in 0..<users.count {
+                UserService.shared.hasFollowedUser(uid: users[i].uid) { hasFollowed in
+                    self.followerUsers[i].isFollowed = hasFollowed
                     numberUsers += 1
                     if numberUsers == users.count {
                         self.completionFecthData?()

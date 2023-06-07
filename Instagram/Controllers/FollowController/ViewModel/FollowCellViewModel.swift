@@ -9,7 +9,7 @@ import UIKit
 import FirebaseAuth
 
 class FollowCellViewModel {
-    let user: UserModel
+    var user: UserModel
     let type: HeaderFollowViewType
     let fromType: ProfileControllerType
     

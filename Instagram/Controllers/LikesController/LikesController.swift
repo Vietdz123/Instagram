@@ -141,15 +141,14 @@ extension LikesController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.indexPathSelected = indexPath
         let profileVc = ProfileController(user: viewModel.userAtIndexPath(indexPath: indexPath), type: .other)
-        profileVc.headerViewController.delegate = self
+        profileVc.delegate = self
         navigationController?.pushViewController(profileVc, animated: true)
         tableView.deselectRow(at: indexPath, animated: false)
-
     }
 }
 
-extension LikesController: HeaderProfileDelegate {
-    func didSelectFollowButtonTap(hasFollowed: Bool) {
+extension LikesController: ProfileControllerDelegate {
+    func didTapFollowButton(hasFollowed: Bool) {
         guard let indexPath = self.indexPathSelected else {
             return}
         let cell = tableView.cellForRow(at: indexPath) as! UserLikedTableViewCell
@@ -171,12 +170,10 @@ extension LikesController: UserLikedTableViewDelegate {
     func didTapFollowButton(cell: UserLikedTableViewCell, user: UserModel) {
         if user.isFollowed {
             self.viewModel.unfollowUser(user: user)
-            user.isFollowed = false
-            cell.updateFollowButton()
+            cell.updateFollowButton(hasFollowed: false)
         } else {
             self.viewModel.followUser(user: user)
-            user.isFollowed = true
-            cell.updateFollowButton()
+            cell.updateFollowButton(hasFollowed: true)
         }
     }
     
