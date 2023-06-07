@@ -113,7 +113,7 @@ Main Feature ProfileController
 # III. HomeController
 Search and Explore Statues:
 <div align="center">
-<img src="gif/Explore.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
+<img src="gif/explore.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
 </div>
 
 # IV. UploadStatusController
