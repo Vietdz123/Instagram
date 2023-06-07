@@ -1,3 +1,4 @@
+<a name="readme-top"></a>
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -8,16 +9,12 @@
   <h3 align="center">Instagram</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    This is a personal project aimed at learning and practicing various concepts!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/Vietdz123/Instagrame">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/Vietdz123/Instagram/issues">Report Bug</a>
+
   </p>
 </div>
 
@@ -79,47 +76,46 @@ Implementing **HomeController** has been both interesting and challenging. It to
   
 In addition, I have also customized a Bottom Sheet Controller for the logout and settings functionality
 
-# I. ProfileController
 
+## Video Demo
+### I. ProfileController
 Main Feature ProfileController
-- Scroll is like Instagram
-
+- Scroll is like Instagram: Begin to header profile, then continue scroll to bottom images.
 <div align="center">
 <img src="gif/scrollLikeInsta.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
 </div>
 
-
-- Custom BottomSheetController and Logout
+- Custom BottomSheetController and Logout:
 
 <div align="center">
 <img src="gif/bottomSheetAndLogout.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
 </div>
 
-- Edit Profile
+- Edit Profile:
 
 <div align="center">
 <img src="gif/editProfile.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
 </div>
 
-- Check who i am following and who is following me
+- Check who i am following and who is following me:
 
 <div align="center">
 <img src="gif/follow.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
 </div>
 
 # II. HomeController
-- Dynamic Size Cell 
+- Dynamic Size Cell:
 
 <div align="center">
 <img src="gif/dynamicCell.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
 </div>
 
-- Likes and Comments Status
+- Likes and Comments Status:
 <div align="center">
 <img src="gif/LikeAndComment.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
 </div>
 
-- Profile của users khác
+- Profile of other users:
 
 <div align="center">
 <img src="gif/anotherUser.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
@@ -127,7 +123,21 @@ Main Feature ProfileController
 
 
 # III. HomeController
-Search and Explore Statues
+Search and Explore Statues:
 <div align="center">
 <img src="gif/Explore.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
 </div>
+
+# IV. UploadStatusController
+<div align="center">
+<img src="gif/UploadTus.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
+</div>
+
+
+## Contact
+
+Your Name - [Trinh Tien Viet](https://www.facebook.com/mdgarp49) - tienviet153153@gmail.com
+
+Project Link: [https://github.com/Vietdz123/Instagram.git](https://github.com/Vietdz123/Instagram.git)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
