@@ -49,7 +49,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Alt Text](imgaes/product_screenShort1.jpg)
+<div align="center">
+<img src="images/product_screenShort1.jpg" alt="Logo" width="320" height="370" style="border-radius: 10px;">
+</div>
 
 This is a my personal project where  I am trying to emulate the features of Instagram after using them. I have utilized several frameworks and classes, including:
 - **UICollectionViewCompositionalLayout**: : To create multiple sections with various layouts and sizes.
@@ -82,20 +84,28 @@ In addition, I have also customized a Bottom Sheet Controller for the logout and
 Main Feature ProfileController
 - Scroll is like Instagram
 
-![](gif/scrollLikeInsta.gif)
+<div align="center">
+<img src="gif/scrollLikeInsta.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
+</div>
+
 
 - Custom BottomSheetController and Logout
 
-![](gif/bottomSheetAndLogout.gif)
+<div align="center">
+<img src="gif/bottomSheetAndLogout.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
+</div>
+
 - Edit Profile
 
-![](gif/editProfile.gif)
+<div align="center">
+<img src="gif/editProfile.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
+</div>
 
 - Check who i am following and who is following me
 
-![](gif/follow.gif)
-
-
+<div align="center">
+<img src="gif/follow.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
+</div>
 
 # II. HomeController
 - Dynamic Size Cell 
