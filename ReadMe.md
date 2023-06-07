@@ -127,7 +127,7 @@ Upload Status with caption and photo image.
 
 ## Contact
 
-Your Name - [Trinh Tien Viet](https://www.facebook.com/mdgarp49) - tienviet153153@gmail.com
+Full Name - [Trinh Tien Viet](https://www.facebook.com/mdgarp49) - tienviet153153@gmail.com
 
 Project Link: [https://github.com/Vietdz123/Instagram.git](https://github.com/Vietdz123/Instagram.git)
 
