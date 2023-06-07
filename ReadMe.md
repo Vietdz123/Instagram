@@ -1,20 +1,17 @@
 <a name="readme-top"></a>
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+<div align="center" style="border-radius: 20px">
+  <a>
     <img src="imgaes/logo.png" alt="Logo" width="80" height="80" style="border-radius: 20px;">
   </a>
-
   <h3 align="center">Instagram</h3>
-
   <p align="center">
     This is a personal project aimed at learning and practicing various concepts!
     <br />
     <a href="https://github.com/Vietdz123/Instagrame">View Demo</a>
     ·
     <a href="https://github.com/Vietdz123/Instagram/issues">Report Bug</a>
-
   </p>
 </div>
 
@@ -24,20 +21,11 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#video-demo">Video Demo</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -47,7 +35,7 @@
 ## About The Project
 
 <div align="center">
-<img src="images/product_screenShort1.jpg" alt="Logo" width="320" height="370" style="border-radius: 10px;">
+<img src="images/product_screenShort1.jpg" alt="Logo" width="320" height="390" style="border-radius: 10px;">
 </div>
 
 This is a my personal project where  I am trying to emulate the features of Instagram after using them. I have utilized several frameworks and classes, including:
@@ -74,8 +62,8 @@ Implementing **HomeController** has been both interesting and challenging. It to
 -  ContainerScrollView: This scroll view is responsible for containing the views of the two child controllers mentioned above.
 -  OverlayScrollView: This scroll view is responsible for containing the views of the two child controllers mentioned above. 
   
-In addition, I have also customized a Bottom Sheet Controller for the logout and settings functionality
-
+In addition, I have also customized a Bottom Sheet Controller for the logout and settings functionality<br />
+<br />
 
 ## Video Demo
 ### I. ProfileController
@@ -129,10 +117,10 @@ Search and Explore Statues:
 </div>
 
 # IV. UploadStatusController
+Upload Status with caption and photo image.
 <div align="center">
 <img src="gif/UploadTus.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
 </div>
-
 
 ## Contact
 
