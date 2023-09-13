@@ -69,51 +69,34 @@ In addition, I have also customized a Bottom Sheet Controller for the logout and
 <br />
 
 ## Video Demo
-### I. ProfileController
+
 Main Feature ProfileController
+
 - Scroll behaves like Instagram: Start at the header profile, then continue scroll to bottom images.
 <div align="center">
 <img src="gif/scrollLikeInsta.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
 </div>
+</br>
 
-- Custom BottomSheetController and Logout:
+- Log out, Edit Profile, Check followers and Following uers :
 
-<div align="center">
-<img src="gif/bottomSheetAndLogout.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
-</div>
 
-- Edit Profile:
+| Log out | Edit Profile | Check Follower and Following |
+| :--------: | :--------: | :--------: | 
+| <img src="gif/bottomSheetAndLogout.gif" alt="Logo" height="100%" style="border-radius: 10px;"> | <img src="gif/editProfile.gif" alt="Logo" width="100%" style="border-radius: 10px;"> | ![](gif/follow.gif?cropResize=50,50) |
 
-<div align="center">
-<img src="gif/editProfile.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
-</div>
 
-- Check followers and followings user:
-
-<div align="center">
-<img src="gif/follow.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
-</div>
 
 # II. HomeController
-- Self-Sizing:
 
-<div align="center">
-<img src="gif/dynamicCell.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
-</div>
-
-- Likes and Comments Status:
-<div align="center">
-<img src="gif/likeNComment.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
-</div>
-
-- Profile of other users:
-
-<div align="center">
-<img src="gif/anotherUser.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
-</div>
+| Self-Sizing | Likes and Comments | Checking Profile Other User |
+| :--------: | :--------: | :--------: | 
+| ![](gif/dynamicCell.gif) | ![](gif/likeNComment.gif) | ![](gif/anotherUser.gif) |
 
 
-# III. HomeController
+
+
+# III. Explore Controller
 Search and Explore Statues:
 <div align="center">
 <img src="gif/explore.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
