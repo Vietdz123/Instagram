@@ -68,8 +68,9 @@ Implementing **ProfileConttroller** has been both interesting and challenging. I
 In addition, I have also customized a Bottom Sheet Controller for the logout and settings functionality<br />
 <br />
 
-## Video Demo
+# Video Demo
 
+# I. Profile Controller
 Main Feature ProfileController
 
 - Scroll behaves like Instagram: Start at the header profile, then continue scroll to bottom images.
@@ -89,11 +90,9 @@ Main Feature ProfileController
 
 # II. HomeController
 
-| Self-Sizing | Likes and Comments | Checking Profile Other User |
+| Self-Sizing | Check Profile Other User | Likes and Comments |
 | :--------: | :--------: | :--------: | 
-| ![](gif/dynamicCell.gif) | ![](gif/likeNComment.gif) | ![](gif/anotherUser.gif) |
-
-
+| <img src="gif/dynamicCell.gif" alt="Logo" height="100%" style="border-radius: 10px;"> | <img src="gif/anotherUser.gif" alt="Logo" height="50%" style="border-radius: 10px;"> | <img src="gif/likeNComment.gif" alt="Logo" height="100%" style="border-radius: 10px;"> |
 
 
 # III. Explore Controller
